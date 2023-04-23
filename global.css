@@ -71,3 +71,19 @@ button:hover {
   background-color: var(--purple-dark);
   color: var(--gray-200);
 }
+
+@media (max-width: 768px) {
+  main {
+  width: 90%;
+  }
+  
+  .peso, .altura {
+  max-width: 100%;
+  width: 100%;
+  }
+  
+  button {
+  width: 100%;
+  font-size: 18px;
+  }
+  }
