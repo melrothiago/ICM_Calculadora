@@ -7,24 +7,26 @@
     <link rel="stylesheet" href="global.css">
   </head>
   <body>
-    <h1>Cálculo do IMC</h1>
-    <form>
-        <section class="icm-form">
-            <div class="input-peso">
-                <label for="peso">Peso (em kg):</label>
+    <main>
+      <h1>Cálculo do IMC</h1>
+      <form>
+          <section class="icm-form">
+              <div class="input-peso">
+                  <label for="peso">Peso (em kg):</label>
     
-                <input type="text" id="peso" class="peso"><br>
-            </div>
+                  <input type="text" placeholder="ex. 70.5" id="peso" class="peso"><br>
+              </div>
 
-            <div class="input-altura">
-                <label for="altura">Altura (em m):</label>
-                <input type="text" id="altura" class="altura"><br>
-        </div>
+              <div class="input-altura">
+                  <label for="altura">Altura (em m):</label>
+                  <input type="text" id="altura" placeholder="ex. 1.80" class="altura"><br>
+              </div>
 
-            <button type="button" id="calcular">Calcular IMC</button>
-        </section>
-    </form>
-    <div id="resultado"></div>
-    <div id="classificacao"></div>
+              <button type="button" id="calcular">Calcular IMC</button>
+          </section>
+      </form>
+      <div id="resultado"></div>
+      <div id="classificacao"></div>
+    </main>
   </body>
 </html>
